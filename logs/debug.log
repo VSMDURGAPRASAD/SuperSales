@@ -5230,3 +5230,104 @@ TypeError: Router.use() requires a middleware function but got a Object
 2018-12-04T01:04:39.396Z - debug: Request to /
 2018-12-04T01:07:02.520Z - debug: Request to /
 2018-12-04T01:07:39.268Z - debug: Request to /
+2019-11-22T04:26:42.254Z - error: uncaughtException: listen EADDRINUSE: address already in use :::8089 date=Thu Nov 21 2019 22:26:42 GMT-0600 (Central Standard Time), pid=19232, uid=null, gid=null, cwd=C:\Users\S533980\Desktop\SuperSales, execPath=C:\Program Files\nodejs\node.exe, version=v10.16.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533980\Desktop\SuperSales\app.js], rss=54919168, heapTotal=38072320, heapUsed=21682944, external=18673551, loadavg=[0, 0, 0], uptime=3415
+Error: listen EADDRINUSE: address already in use :::8089
+    at Server.setupListenHandle [as _listen2] (net.js:1279:14)
+    at listenInCluster (net.js:1327:12)
+    at Server.listen (net.js:1414:7)
+    at Function.listen (C:\Users\S533980\Desktop\SuperSales\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\S533980\Desktop\SuperSales\app.js:94:6)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+2019-11-22T04:26:42.141Z - info: Environment variables loaded.
+2019-11-22T04:26:42.147Z - debug: START routing
+2019-11-22T04:26:42.184Z - debug: END routing
+2019-11-22T04:26:42.185Z - info: Routing set as /routes/index.js
+2019-11-22T04:26:42.216Z - info: START seeder.
+2019-11-22T04:26:42.220Z - debug: 5 customers seeded
+2019-11-22T04:26:42.223Z - debug: 5 products seeded
+2019-11-22T04:26:42.225Z - debug: 5 orders seeded
+2019-11-22T04:26:42.227Z - debug: 5 orderLineItems seeded
+2019-11-22T04:26:42.227Z - info: END Seeder. Sample data read and verified.
+2019-11-22T04:27:31.382Z - error: uncaughtException: listen EADDRINUSE: address already in use :::8089 date=Thu Nov 21 2019 22:27:31 GMT-0600 (Central Standard Time), pid=16392, uid=null, gid=null, cwd=C:\Users\S533980\Desktop\SuperSales, execPath=C:\Program Files\nodejs\node.exe, version=v10.16.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533980\Desktop\SuperSales\app.js], rss=54931456, heapTotal=38596608, heapUsed=21563416, external=18660045, loadavg=[0, 0, 0], uptime=3464
+Error: listen EADDRINUSE: address already in use :::8089
+    at Server.setupListenHandle [as _listen2] (net.js:1279:14)
+    at listenInCluster (net.js:1327:12)
+    at Server.listen (net.js:1414:7)
+    at Function.listen (C:\Users\S533980\Desktop\SuperSales\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\S533980\Desktop\SuperSales\app.js:94:6)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+2019-11-22T04:27:31.293Z - info: Environment variables loaded.
+2019-11-22T04:27:31.298Z - debug: START routing
+2019-11-22T04:27:31.327Z - debug: END routing
+2019-11-22T04:27:31.328Z - info: Routing set as /routes/index.js
+2019-11-22T04:27:31.352Z - info: START seeder.
+2019-11-22T04:27:31.356Z - debug: 5 customers seeded
+2019-11-22T04:27:31.357Z - debug: 5 products seeded
+2019-11-22T04:27:31.358Z - debug: 5 orders seeded
+2019-11-22T04:27:31.360Z - debug: 5 orderLineItems seeded
+2019-11-22T04:27:31.360Z - info: END Seeder. Sample data read and verified.
+2019-11-22T04:28:30.361Z - info: Environment variables loaded.
+2019-11-22T04:28:30.366Z - debug: START routing
+2019-11-22T04:28:30.392Z - debug: END routing
+2019-11-22T04:28:30.393Z - info: Routing set as /routes/index.js
+2019-11-22T04:28:30.416Z - info: START seeder.
+2019-11-22T04:28:30.420Z - debug: 5 customers seeded
+2019-11-22T04:28:30.422Z - debug: 5 products seeded
+2019-11-22T04:28:30.423Z - debug: 5 orders seeded
+2019-11-22T04:28:30.425Z - debug: 5 orderLineItems seeded
+2019-11-22T04:28:30.426Z - info: END Seeder. Sample data read and verified.
+2019-11-22T04:28:43.884Z - debug: Request to /
+2019-11-22T04:44:00.558Z - error: uncaughtException: app is not defined date=Thu Nov 21 2019 22:44:00 GMT-0600 (Central Standard Time), pid=20672, uid=null, gid=null, cwd=C:\Users\S533980\Desktop\SuperSales, execPath=C:\Program Files\nodejs\node.exe, version=v10.16.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533980\Desktop\SuperSales\app.js], rss=52518912, heapTotal=35450880, heapUsed=22413256, external=19243004, loadavg=[0, 0, 0], uptime=4454
+ReferenceError: app is not defined
+    at Object.<anonymous> (C:\Users\S533980\Desktop\SuperSales\routes\index.js:17:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (C:\Users\S533980\Desktop\SuperSales\app.js:46:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+2019-11-22T04:44:00.528Z - info: Environment variables loaded.
+2019-11-22T04:44:00.534Z - debug: START routing
+2019-11-22T05:34:25.655Z - info: Environment variables loaded.
+2019-11-22T05:34:25.727Z - error: uncaughtException: app is not defined date=Thu Nov 21 2019 23:34:25 GMT-0600 (Central Standard Time), pid=19832, uid=null, gid=null, cwd=C:\Users\S533980\Desktop\Car_Rental, execPath=C:\Program Files\nodejs\node.exe, version=v10.16.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\S533980\Desktop\Car_Rental\app.js], rss=53665792, heapTotal=38072320, heapUsed=18410352, external=18306074, loadavg=[0, 0, 0], uptime=7479
+ReferenceError: app is not defined
+    at Object.<anonymous> (C:\Users\S533980\Desktop\Car_Rental\routes\index.js:17:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (C:\Users\S533980\Desktop\Car_Rental\app.js:46:16)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+2019-11-22T05:34:25.675Z - debug: START routing

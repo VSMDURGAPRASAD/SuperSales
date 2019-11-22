@@ -14,7 +14,7 @@ const expressStatusMonitor = require('express-status-monitor')
 const LOG = require('./utils/logger.js')
 const logfile = '/access.log'
 const app = express()  // make express app
-const port = process.env.PORT  || 8089
+const port = process.env.PORT  || 9999
 const fs = require('fs')
 
 
